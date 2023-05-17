@@ -63,6 +63,11 @@ macro(source_group_by_dir proj_dir source_files)
     endif(MSVC OR APPLE)
 endmacro(source_group_by_dir)
 
+if (CMAKE_SYSTEM_NAME MATCHES "Linux") 
+    MESSAGE(STATUS "current platform: Linux ") 
+    LINK_LIBRARIES(m)
+endif (CMAKE_SYSTEM_NAME MATCHES "Linux") 
+
 source_group_by_dir(${CMAKE_CURRENT_SOURCE_DIR} LUA_CORE)
 source_group_by_dir(${CMAKE_CURRENT_SOURCE_DIR} LUA_LIB)
 source_group_by_dir(${CMAKE_CURRENT_SOURCE_DIR} LUAC)

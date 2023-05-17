@@ -32,6 +32,8 @@
 
 using namespace rapidjson;
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #ifndef LUA_RAPIDJSON_VERSION
 #define LUA_RAPIDJSON_VERSION "scm"
 #endif
