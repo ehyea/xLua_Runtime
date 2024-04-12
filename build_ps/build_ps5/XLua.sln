@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{591A4074-3C25-3AE4-9475-A80B8A82F27A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7046E46F-32FE-3EEE-B825-68013BCED971} = {7046E46F-32FE-3EEE-B825-68013BCED971}
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF} = {E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{7046E46F-32FE-3EEE-B825-68013BCED971}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlua", "xlua.vcxproj", "{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7046E46F-32FE-3EEE-B825-68013BCED971} = {7046E46F-32FE-3EEE-B825-68013BCED971}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Prospero = Debug|Prospero
+		Release|Prospero = Release|Prospero
+		MinSizeRel|Prospero = MinSizeRel|Prospero
+		RelWithDebInfo|Prospero = RelWithDebInfo|Prospero
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591A4074-3C25-3AE4-9475-A80B8A82F27A}.Debug|Prospero.ActiveCfg = Debug|Prospero
+		{591A4074-3C25-3AE4-9475-A80B8A82F27A}.Release|Prospero.ActiveCfg = Release|Prospero
+		{591A4074-3C25-3AE4-9475-A80B8A82F27A}.MinSizeRel|Prospero.ActiveCfg = MinSizeRel|Prospero
+		{591A4074-3C25-3AE4-9475-A80B8A82F27A}.RelWithDebInfo|Prospero.ActiveCfg = RelWithDebInfo|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.Debug|Prospero.ActiveCfg = Debug|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.Debug|Prospero.Build.0 = Debug|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.Release|Prospero.ActiveCfg = Release|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.Release|Prospero.Build.0 = Release|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.MinSizeRel|Prospero.ActiveCfg = MinSizeRel|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.MinSizeRel|Prospero.Build.0 = MinSizeRel|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.RelWithDebInfo|Prospero.ActiveCfg = RelWithDebInfo|Prospero
+		{7046E46F-32FE-3EEE-B825-68013BCED971}.RelWithDebInfo|Prospero.Build.0 = RelWithDebInfo|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.Debug|Prospero.ActiveCfg = Debug|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.Debug|Prospero.Build.0 = Debug|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.Release|Prospero.ActiveCfg = Release|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.Release|Prospero.Build.0 = Release|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.MinSizeRel|Prospero.ActiveCfg = MinSizeRel|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.MinSizeRel|Prospero.Build.0 = MinSizeRel|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.RelWithDebInfo|Prospero.ActiveCfg = RelWithDebInfo|Prospero
+		{E2F6DD5C-9A5E-38F8-8418-FB2DDB33B0CF}.RelWithDebInfo|Prospero.Build.0 = RelWithDebInfo|Prospero
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {081585A6-AF7D-3336-990A-03EE59DC7465}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

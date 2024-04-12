@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\i64lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\xlua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\memory_leak_checker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-rapidjson\source\rapidjson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-protobuf\pb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpcap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpprint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lptree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\ctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\ffi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\hd1\Code\Client\xLua\build_ps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3723D1EE-2AAD-3CD5-9290-F4D6512ED925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{6EA907C4-FB29-361E-A2D3-D6E6BE9732DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C} = {7E12B5FB-CE36-37CC-9096-FA35796A3B6C}
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149} = {14C17A5B-80E7-3617-AA3E-9E08D6788149}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlua", "xlua.vcxproj", "{14C17A5B-80E7-3617-AA3E-9E08D6788149}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C} = {7E12B5FB-CE36-37CC-9096-FA35796A3B6C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ORBIS = Debug|ORBIS
+		Release|ORBIS = Release|ORBIS
+		MinSizeRel|ORBIS = MinSizeRel|ORBIS
+		RelWithDebInfo|ORBIS = RelWithDebInfo|ORBIS
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA907C4-FB29-361E-A2D3-D6E6BE9732DB}.Debug|ORBIS.ActiveCfg = Debug|ORBIS
+		{6EA907C4-FB29-361E-A2D3-D6E6BE9732DB}.Release|ORBIS.ActiveCfg = Release|ORBIS
+		{6EA907C4-FB29-361E-A2D3-D6E6BE9732DB}.MinSizeRel|ORBIS.ActiveCfg = MinSizeRel|ORBIS
+		{6EA907C4-FB29-361E-A2D3-D6E6BE9732DB}.RelWithDebInfo|ORBIS.ActiveCfg = RelWithDebInfo|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.Debug|ORBIS.ActiveCfg = Debug|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.Debug|ORBIS.Build.0 = Debug|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.Release|ORBIS.ActiveCfg = Release|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.Release|ORBIS.Build.0 = Release|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.MinSizeRel|ORBIS.ActiveCfg = MinSizeRel|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.MinSizeRel|ORBIS.Build.0 = MinSizeRel|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.RelWithDebInfo|ORBIS.ActiveCfg = RelWithDebInfo|ORBIS
+		{7E12B5FB-CE36-37CC-9096-FA35796A3B6C}.RelWithDebInfo|ORBIS.Build.0 = RelWithDebInfo|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.Debug|ORBIS.ActiveCfg = Debug|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.Debug|ORBIS.Build.0 = Debug|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.Release|ORBIS.ActiveCfg = Release|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.Release|ORBIS.Build.0 = Release|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.MinSizeRel|ORBIS.ActiveCfg = MinSizeRel|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.MinSizeRel|ORBIS.Build.0 = MinSizeRel|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.RelWithDebInfo|ORBIS.ActiveCfg = RelWithDebInfo|ORBIS
+		{14C17A5B-80E7-3617-AA3E-9E08D6788149}.RelWithDebInfo|ORBIS.Build.0 = RelWithDebInfo|ORBIS
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D416CFA-D51E-3D1C-9759-629EF1780343}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
