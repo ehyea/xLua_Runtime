@@ -9,7 +9,8 @@ details. */
 #ifndef _DLFCN_H
 #define _DLFCN_H
 
-#include <sys/cdefs.h>
+//#include <sys/cdefs.h>
+#include "cdefs.h"
 #include <limits.h>
 
 #ifdef __cplusplus
