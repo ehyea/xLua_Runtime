@@ -138,20 +138,16 @@ static time_t l_checktime (lua_State *L, int arg) {
 
 
 
-static int os_execute (lua_State *L) {
-#if defined(WINAPI_FAMILY_PARTITION)
-  return luaL_error(L, "unsupport api in uwp platform");
-#else
-  const char *cmd = luaL_optstring(L, 1, NULL);
-  int stat = system(cmd);
-  if (cmd != NULL)
-    return luaL_execresult(L, stat);
-  else {
-    lua_pushboolean(L, stat);  /* true if there is a shell */
-    return 1;
-  }
-#endif
-}
+//static int os_execute (lua_State *L) {
+//  const char *cmd = luaL_optstring(L, 1, NULL);
+//  int stat = system(cmd);
+//  if (cmd != NULL)
+//    return luaL_execresult(L, stat);
+//  else {
+//    lua_pushboolean(L, stat);  /* true if there is a shell */
+//    return 1;
+//  }
+//}
 
 
 static int os_remove (lua_State *L) {
@@ -301,7 +297,8 @@ static int os_date (lua_State *L) {
   else
     stm = l_localtime(&t, &tmr);
   if (stm == NULL)  /* invalid date? */
-    luaL_error(L, "time result cannot be represented in this installation");
+    return luaL_error(L,
+                 "time result cannot be represented in this installation");
   if (strcmp(s, "*t") == 0) {
     lua_createtable(L, 0, 9);  /* 9 = number of fields */
     setallfields(L, stm);
@@ -348,7 +345,8 @@ static int os_time (lua_State *L) {
     setallfields(L, &ts);  /* update fields with normalized values */
   }
   if (t != (time_t)(l_timet)t || t == (time_t)(-1))
-    luaL_error(L, "time result cannot be represented in this installation");
+    return luaL_error(L,
+                  "time result cannot be represented in this installation");
   l_pushtime(L, t);
   return 1;
 }
@@ -393,7 +391,7 @@ static const luaL_Reg syslib[] = {
   {"clock",     os_clock},
   {"date",      os_date},
   {"difftime",  os_difftime},
-  {"execute",   os_execute},
+  //{"execute",   os_execute},
   {"exit",      os_exit},
   {"getenv",    os_getenv},
   {"remove",    os_remove},

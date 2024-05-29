@@ -138,7 +138,7 @@ static void print_usage (const char *badoption) {
   "Available options are:\n"
   "  -e stat  execute string 'stat'\n"
   "  -i       enter interactive mode after executing 'script'\n"
-  "  -l name  require library 'name'\n"
+  "  -l name  require library 'name' into global 'name'\n"
   "  -v       show version information\n"
   "  -E       ignore environment variables\n"
   "  --       stop handling options\n"
