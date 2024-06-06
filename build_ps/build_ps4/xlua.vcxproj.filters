@@ -141,9 +141,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\hd1\Code\Client\xLua\build_ps\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{3723D1EE-2AAD-3CD5-9290-F4D6512ED925}</UniqueIdentifier>
     </Filter>
