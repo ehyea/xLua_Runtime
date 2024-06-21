@@ -42,7 +42,9 @@ set(LUA_SRC_PATH lua-${LUA_VERSION}/src)
 set(LUAJIT_SRC_PATH luajit-2.1.0b3/src)
 
 #begin lua-rapidjson
-set (RAPIDJSON_SRC lua-rapidjson/source/rapidjson.cpp)
+set (RAPIDJSON_SRC 
+	lua-rapidjson/source/rapidjson.cpp
+	 )
 set_property(
 	SOURCE ${RAPIDJSON_SRC}
 	APPEND

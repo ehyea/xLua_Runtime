@@ -236,183 +236,103 @@
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\xlua.c" />
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\memory_leak_checker.c" />
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-rapidjson\source\rapidjson.cpp">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-protobuf\pb.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpcap.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpcode.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpprint.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lptree.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lpeg\lpvm.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\parser.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\ctype.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\ffi\ffi.c">
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">false</ScanSourceforModuleDependencies>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|NX64'">%(PreprocessorDefinitions);LUA_LIB</PreprocessorDefinitions>
     </ClCompile>
   </ItemGroup>

@@ -236,6 +236,13 @@ struct ToLuaHandler {
 		current_.submit(L);
 		return true;
 	}
+	bool RawNumber(const char* str, rapidjson::SizeType length, bool copy) {
+		lua_getglobal(L, "tonumber");
+		lua_pushlstring(L, str, length);
+		lua_call(L, 1, 1);
+		current_.submit(L);
+		return true;
+	}
 	bool String(const char* str, SizeType length, bool copy) {
 		lua_pushlstring(L, str, length);
 		current_.submit(L);

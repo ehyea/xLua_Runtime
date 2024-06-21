@@ -96,6 +96,7 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <CppExceptions>true</CppExceptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);_DEBUG;LUA_BUILD_AS_DLL;LUAC_COMPATIBLE_FORMAT;CMAKE_INTDIR=\"Debug\";xlua_EXPORTS</PreprocessorDefinitions>
@@ -113,7 +114,7 @@
       <AdditionalDependencies>
       </AdditionalDependencies>
       <AdditionalLibraryDirectories>F:/Program Files (x86)/SCE/Prospero SDKs/8.000/target/lib;F:/Program Files (x86)/SCE/Prospero SDKs/8.000/target/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) --prx-stub-output-dirE:/hd1/Code/Client/xLua/build_ps/build_ps5/Debug</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) --prx-stub-output-dir E:/hd1/Code/Client/xLua/build_ps/build_ps5/Debug</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>E:/hd1/Code/Client/xLua/build_ps/build_ps5/Debug/xlua_stub_weak.a</ImportLibrary>
@@ -247,63 +248,6 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <CustomBuild Include="E:\hd1\Code\Client\xLua\build_ps\CMakeLists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">Building Custom Rule E:/hd1/Code/Client/xLua/build_ps/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">setlocal
-D:\msys64\mingw64\bin\cmake.exe -SE:/hd1/Code/Client/xLua/build_ps -BE:/hd1/Code/Client/xLua/build_ps/build_ps5 --check-stamp-file E:/hd1/Code/Client/xLua/build_ps/build_ps5/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">D:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-C.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-CXX.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeCache.txt;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeSystem.cmake;E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\luaconf.h.in;F:\Program Files (x86)\SCE\Prospero\Tools\CMake\PS5.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">Building Custom Rule E:/hd1/Code/Client/xLua/build_ps/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">setlocal
-D:\msys64\mingw64\bin\cmake.exe -SE:/hd1/Code/Client/xLua/build_ps -BE:/hd1/Code/Client/xLua/build_ps/build_ps5 --check-stamp-file E:/hd1/Code/Client/xLua/build_ps/build_ps5/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">D:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-C.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-CXX.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeCache.txt;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeSystem.cmake;E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\luaconf.h.in;F:\Program Files (x86)\SCE\Prospero\Tools\CMake\PS5.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Prospero'">Building Custom Rule E:/hd1/Code/Client/xLua/build_ps/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Prospero'">setlocal
-D:\msys64\mingw64\bin\cmake.exe -SE:/hd1/Code/Client/xLua/build_ps -BE:/hd1/Code/Client/xLua/build_ps/build_ps5 --check-stamp-file E:/hd1/Code/Client/xLua/build_ps/build_ps5/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Prospero'">D:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-C.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-CXX.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeCache.txt;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeSystem.cmake;E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\luaconf.h.in;F:\Program Files (x86)\SCE\Prospero\Tools\CMake\PS5.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Prospero'">E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Prospero'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Prospero'">Building Custom Rule E:/hd1/Code/Client/xLua/build_ps/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Prospero'">setlocal
-D:\msys64\mingw64\bin\cmake.exe -SE:/hd1/Code/Client/xLua/build_ps -BE:/hd1/Code/Client/xLua/build_ps/build_ps5 --check-stamp-file E:/hd1/Code/Client/xLua/build_ps/build_ps5/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Prospero'">D:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-C.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-CXX.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\Clang.cmake;D:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeCache.txt;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\3.26.3\CMakeSystem.cmake;E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\luaconf.h.in;F:\Program Files (x86)\SCE\Prospero\Tools\CMake\PS5.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Prospero'">E:\hd1\Code\Client\xLua\build_ps\build_ps5\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Prospero'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lapi.c" />
     <ClCompile Include="E:\hd1\Code\Client\xLua\build_ps\lua-5.3.5\src\lauxlib.c" />

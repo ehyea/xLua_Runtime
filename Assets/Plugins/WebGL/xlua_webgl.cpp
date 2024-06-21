@@ -1,4 +1,5 @@
 extern "C" {
+#define LUAC_COMPATIBLE_FORMAT 1
 #include "../../../WebGLPlugins/lapi.c"
 #include "../../../WebGLPlugins/lauxlib.c"
 #include "../../../WebGLPlugins/lbaselib.c"

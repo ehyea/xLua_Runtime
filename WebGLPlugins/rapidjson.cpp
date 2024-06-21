@@ -32,6 +32,8 @@
 
 using namespace rapidjson;
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #ifndef LUA_RAPIDJSON_VERSION
 #define LUA_RAPIDJSON_VERSION "scm"
 #endif
@@ -234,6 +236,13 @@ struct ToLuaHandler {
 		current_.submit(L);
 		return true;
 	}
+	bool RawNumber(const char* str, rapidjson::SizeType length, bool copy) {
+		lua_getglobal(L, "tonumber");
+		lua_pushlstring(L, str, length);
+		lua_call(L, 1, 1);
+		current_.submit(L);
+		return true;
+	}
 	bool String(const char* str, SizeType length, bool copy) {
 		lua_pushlstring(L, str, length);
 		current_.submit(L);
@@ -394,12 +403,12 @@ private:
 	static bool isInteger(lua_State* L, int idx, int64_t* out)
 	{
 #if LUA_VERSION_NUM >= 503
-		if (lua_isinteger(L, idx)) // but it maybe not detect all integers.
+		if (lua_isinteger(L, idx))
 		{
 			*out = lua_tointeger(L, idx);
 			return true;
 		}
-#endif
+#else
 		double intpart;
 		if (modf(lua_tonumber(L, idx), &intpart) == 0.0)
 		{
@@ -410,6 +419,7 @@ private:
 				return true;
 			}
 		}
+#endif
 		return false;
 	}
 
